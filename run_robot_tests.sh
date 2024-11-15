@@ -3,7 +3,7 @@
 echo "Running tests"
 
 # käynnistetään Flask-palvelin taustalle
-poetry run py src/index.py &
+poetry run python3 src/index.py &
 
 echo "started Flask server"
 
